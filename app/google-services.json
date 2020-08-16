@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "56116393902",
+    "firebase_url": "https://nileshpc-b3298.firebaseio.com",
+    "project_id": "nileshpc-b3298",
+    "storage_bucket": "nileshpc-b3298.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56116393902:android:72a3b12d1a59fabc87ba3f",
+        "android_client_info": {
+          "package_name": "com.example.nileshpc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56116393902-ds79imabjilu97j0gvetp8q6438q0417.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nileshpc",
+            "certificate_hash": "b0b57c0a636875e838b353e103ac008a91275b34"
+          }
+        },
+        {
+          "client_id": "56116393902-1ildsurtdk54dden4irfddnda21o53bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM4Zm6xr6iRJRyg0UebtuSIHnPOOKwF-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56116393902-1ildsurtdk54dden4irfddnda21o53bh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
