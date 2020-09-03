@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.os.Parcelable
 import androidx.appcompat.app.AppCompatActivity
 import com.example.android.hilt.ui.MainActivity
+import com.example.nileshpc.biometric.BiometericAuthenticateActivity
 import com.example.nileshpc.camera.CameraXActivity
 import com.example.nileshpc.db.ui.DataBindingActivity
 import com.example.nileshpc.motionlayout.AnimationBasicActivity
@@ -46,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         widgetButton.setOnClickListener {
-         //   updateMyWidgets(this@MainActivity, null)
+            updateMyWidgets(this@MainActivity, null)
             //val animationIntent = Intent(this, AppWidgetActivity::class.java)
             val animationIntent = Intent(this, WidgetPinningActivity::class.java)
             startActivity(animationIntent)
@@ -55,6 +56,11 @@ class MainActivity : AppCompatActivity() {
         dataBindingButton.setOnClickListener {
             val dataBindingIntent = Intent(this, DataBindingActivity::class.java)
             startActivity(dataBindingIntent)
+        }
+
+        biometricButton.setOnClickListener {
+            val biometricIntent = Intent(this, BiometericAuthenticateActivity::class.java)
+            startActivity(biometricIntent)
         }
 
     }
@@ -77,7 +83,7 @@ https://developer.android.com/studio/test/espresso-test-recorder
  */
 /**
  * Android slicing
- * 
+ *
  * https://codelabs.developers.google.com/codelabs/android-slices-basic/index.html?index=..%2F..index#0
  */
 
